@@ -6,9 +6,11 @@ The App Oh My Flag helps students get familiar with flags. It is both educating 
 
 ## Screenshot
 
-| ![gallery tab](resources/gallery-Tab-Medium.png) | ![add new](resources/add-New-Tab-Medium.png) | ![quiz tab](resources/quiz-Tab-Medium.png)       |
-| ------------------------------------------------ | -------------------------------------------- | ------------------------------------------------ |
-| ![detail tab](resources/detail-Tab-Medium.png)   | ![edit tab](resources/edit-Tab-Medium.png)   | ![drawing tab](resources/drawing-Tab-Medium.png) |
+| ![gallery tab](resources/gallery-Tab-Medium.png) | ![add new](resources/add-New-Tab-Medium.png) |    ![quiz tab](resources/quiz-Tab-Medium.png)    |
+| :----------------------------------------------: | :------------------------------------------: | :----------------------------------------------: |
+|                   Gallery Page                   |              Add New Flag Sheet              |                 Oh My Quiz Game                  |
+|  ![detail tab](resources/detail-Tab-Medium.png)  |  ![edit tab](resources/edit-Tab-Medium.png)  | ![drawing tab](resources/drawing-Tab-Medium.png) |
+|                   Detail Page                    |                  Edit Sheet                  |                   Drawing Page                   |
 
 ## Installation
 

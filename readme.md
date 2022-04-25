@@ -12,6 +12,8 @@ The App Oh My Flag helps students get familiar with flags. It is both educating 
 |  ![detail tab](resources/detail-Tab-Medium.png)  |  ![edit tab](resources/edit-Tab-Medium.png)  | ![drawing tab](resources/drawing-Tab-Medium.png) |
 |                   Detail Page                    |                  Edit Sheet                  |                   Drawing Page                   |
 
+Detailed walk-through video: [Twitter Link](https://twitter.com/cyongfrank/status/1518663840463872000)
+
 ## Installation
 
 1. Download the [Swift Playgrounds](https://apps.apple.com/us/app/swift-playgrounds/id908519492) on your iPad.

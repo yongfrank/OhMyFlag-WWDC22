@@ -13,7 +13,7 @@ The App Oh My Flag helps students get familiar with flags. It is both educating 
 ## Installation
 
 1. Download the [Swift Playgrounds](https://apps.apple.com/us/app/swift-playgrounds/id908519492) on your iPad.
-2. Download the [Oh My Flag.swiftpm](https://github.com/yongfrank/OhMyFlag-WWDC22/raw/main/OhMyFlag.swiftpm) file to your Mac or PC.
+2. Download the [Oh My Flag.swiftpm](https://github.com/yongfrank/OhMyFlag-WWDC22/raw/main/OhMyFlag.swiftpm.zip) file to your Mac or PC.
 3. Open the "Oh My Flag.swiftpm" file in Swift Playgrounds on iPad with AirDrop(Recommended).
 
 ## DocC Step-by-step Tutorial

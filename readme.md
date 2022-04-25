@@ -26,6 +26,11 @@ To have a better experience, please follow the steps in the picture to get the s
 
 ## What are the features and technologies inside the App?
 
+* SwiftUI
+* CoreData
+* PencilKit
+* DocC
+
 According to learning theory, individuals will learn better if they use more than one sense. Hence, Oh My Flag tries to employ different ways to help students learn "both familiar and strange" flags on the emoji keyboard. There are three tabs: taking notes, playing quizzes, and drawing pictures, which deepen the understanding of flags and the new cultures in every corner of the world. They can add flags manually and write some personal experiences about this flag. Besides, it is easy to learn a new flag with the "Random Add, Quiz, Drawing" parts in the App. The flags can be reviewed anytime - before watching a foreign film, getting to know a country after the history class, or on the anniversary of moving to a new place.
 
 Easy-to-use designs are ones that users find so familiar and intuitive. Therefore, SwiftUI, SF Symbols 3, and Emoji are adopted to make better App design. All image assets in Oh My Flag are based on these two unprecedented symbol systems. There are better user interfaces and consistent user experiences in Oh My Flag, such as unified image resources, flags in the stack, flag animation, etc. All the beloved flags and notes will be stored in the device safely with the help of Code-based CoreData. Finally, as a good partner for iPad, Apple Pencil and PencilKit provide a comfortable painting experience and stimulate inspiration when users are creating. 

@@ -53,10 +53,10 @@ In Dec. 2021, Swift Playgrounds 4 launched. This new programming language is eas
 
 My inspiration for the Oh My Flag App also comes from Apple Teacher Program. Before introducing the programming language, we had discussed different flags and languages in class. When I found these kids are curious about unfamiliar flags, an idea appeared – why not make an App to help them memorize the flags they like? The prototype of this App began to grow in my mind.
 
-## The App would not have been possible with the help of
+## The App would not have been possible without the help of
 
-* [Paul Hudson](https://www.hackingwithswift.com) - My Swift Teacher
+* [@twostraws](https://twitter.com/twostraws) - Paul Hudson My Swift Teacher
+* [@leonardolu](https://github.com/leonardolu)
 * People on the [StackOverflow](https://stackoverflow.com) Community
-* [@leonardolu](https://github.com/leonardolu) 
 * And anyone who helped me
 

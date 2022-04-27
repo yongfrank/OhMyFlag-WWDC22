@@ -1,7 +1,7 @@
 # Oh My Flag
 
 [![Version Acquired](https://img.shields.io/badge/Swift_Playgrounds-4.0_or_Above_on_iPad-green)](https://apps.apple.com/us/app/swift-playgrounds/id908519492)
-![](https://img.shields.io/twitter/follow/cyongfrank?style=social&logo=twitter)
+[![Follow on twitter](https://img.shields.io/twitter/follow/cyongfrank)](https://twitter.com/intent/follow?screen_name=cyongfrank)
 
 ![banner](resources/banner.jpeg)
 

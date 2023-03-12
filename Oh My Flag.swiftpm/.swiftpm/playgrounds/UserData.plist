@@ -6,10 +6,16 @@
 	<dict>
 		<key>completedTaskIDs</key>
 		<array/>
+		<key>hasSeenIntro</key>
+		<false/>
+		<key>pageIDsWithRevealedSolutions</key>
+		<dict/>
 		<key>stepIndex</key>
 		<integer>0</integer>
 		<key>successMessageShowing</key>
 		<false/>
+		<key>taskID</key>
+		<string>$null</string>
 	</dict>
 </dict>
 </plist>

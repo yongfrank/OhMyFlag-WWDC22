@@ -16,7 +16,7 @@ struct FlagGallery: View {
     ]) var flagsEntitiesInFlagGallery: FetchedResults<FlagEntities>
     
     @Environment(\.managedObjectContext) var mocInFlagGallery
-    
+    @Binding var showWhatsNew: Bool
 //    let flag: FlagEntities
     
     @State private var showingGrid = true
@@ -91,6 +91,14 @@ struct FlagGallery: View {
                 }
                 
                 ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        self.showWhatsNew.toggle()
+                    } label: {
+                        Image(systemName: "questionmark.circle")
+                    }
+                }
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
 //                    Button {
                         
 
@@ -148,7 +156,7 @@ struct FlagGallery: View {
 struct FlagGallery_Previews: PreviewProvider {
     
     static var previews: some View {
-        FlagGallery()
+        FlagGallery(showWhatsNew: .constant(false))
             .previewInterfaceOrientation(.landscapeRight)
     }
 }

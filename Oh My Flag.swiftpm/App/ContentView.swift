@@ -20,7 +20,7 @@ struct ContentView: View {
     var body: some View {
         TabView {
             /*#-code-walkthrough(1.1)*/
-            FlagGallery()
+            FlagGallery(showWhatsNew: $showWhatsNew)
                 .tabItem {
                     Label("Gallery", systemImage: "house")
                 }

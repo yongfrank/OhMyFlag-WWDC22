@@ -13,7 +13,7 @@ struct CanvasNewView: View {
     @State private var toolPickerIsActive = false
     @State var canvasIsVisible = true
     @State var saveSuccessfullyAlert = false
-
+    var shuffleButton: () -> Void = {}
 
     var body: some View {
         
@@ -45,6 +45,21 @@ struct CanvasNewView: View {
                     Image(systemName: canvasIsVisible ? "pencil.circle.fill" : "pencil.circle")
                 })
             }
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button() {
+                    self.shuffleButton()
+                } label: {
+                    VStack {
+                        Image(systemName: "shuffle")
+//                            .font(.largeTitle)
+//                            .padding(.bottom, 4)
+//                        Text("Shuffle Flag")
+                    }
+                }
+//                .buttonStyle(.bordered)
+//                .controlSize(.large)
+//                .padding(.horizontal)
+            }
             
             ToolbarItem {
                 Button {
@@ -67,10 +82,8 @@ struct CanvasNewView: View {
                 
             }
         }
-                
-        
         .navigationViewStyle(.stack)
-        .navigationTitle("Draw anything here, just be more creative")
+        .navigationTitle("Let's Draw")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             canvasIsVisible.toggle()

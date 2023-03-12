@@ -31,6 +31,36 @@ struct DrawingFlag: View {
     
     @State var randomFlag = ""
     var body: some View {
+#if os(iOS)
+        NavigationView {
+            ZStack {
+                VStack {
+                    HStack {
+                        VStack {
+                            Text(randomFlag)
+                                .font(.system(size: 120))
+                            if randomFlag != "" {
+                                Text(flagToName(flag: randomFlag))
+                                    .font(.largeTitle).bold()
+                            }
+                        }
+                    }
+                    Spacer()
+                }
+                CanvasNewView(canvasIsVisible: !buttonPressed) {
+                    changePicture()
+                    buttonPressed = true
+                }
+            }
+            .padding()
+            .onAppear() {
+                randomFlag = flagsDrawingFlag.randomElement()?.emojiFlag ?? ""
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(.darkBackground)
+        }
+        .navigationViewStyle(.stack)
+#else
         NavigationView {
                 VStack {
                     Text("Let's Draw")
@@ -73,8 +103,6 @@ struct DrawingFlag: View {
                     .buttonStyle(.bordered)
                     .controlSize(.large)
                     .padding()
-                    
-                    
                 }//: end of VStask
                 .padding()
                 .onAppear() {
@@ -97,8 +125,7 @@ struct DrawingFlag: View {
 //                }
 //            }
         } //: Navigation View End
-        
-        
+#endif
     }
     
     
@@ -116,8 +143,8 @@ struct DrawingFlag: View {
     
 }
 
-//struct DrawingFlag_Previews: PreviewProvider {
-//    static var previews: some View {
-//        DrawingFlag()
-//    }
-//}
+struct DrawingFlag_Previews: PreviewProvider {
+    static var previews: some View {
+        DrawingFlag()
+    }
+}

@@ -79,6 +79,7 @@ struct QuizFlag: View {
             //                .ignoresSafeArea()
             
             GeometryReader { geometry in
+                
                 VStack {
                     //                Spacer()
                     
@@ -147,7 +148,7 @@ struct QuizFlag: View {
                                 Text("Tap the flag of ")
                                     .font(.title.weight(.bold))
                                 Text("\(flagQuiz[correctAnswer].nameFlag)")
-                                    .font(.largeTitle.weight(.heavy))
+                                    .font(UIScreen.main.bounds.height < 750 ? .title2.weight(.heavy) : .largeTitle.weight(.heavy))
                                     .foregroundColor(.accentColor)
                                 HStack {
                                     Button(flagQuiz[a].emojiFlag){
@@ -184,7 +185,7 @@ struct QuizFlag: View {
                             Spacer()
                             VStack(alignment: .center){
                                 Text(scoreTitle)
-                                    .font(.largeTitle.weight(.heavy))
+                                    .font(UIScreen.main.bounds.height < 750 ? .title3.weight(.heavy) : .largeTitle.weight(.heavy))
                                     .foregroundColor(scoreTitle == "✅ Bingo, That's right!" ? .white : .red)
                                 //                            .frame(width: 300, alignment: .center)
                                     .padding()
@@ -199,7 +200,7 @@ struct QuizFlag: View {
                                 }
                                 .padding(.horizontal)
                             }
-                            .frame(height: geometry.size.width < geometry.size.height ? geometry.size.width * 0.75: geometry.size.height * 0.3)
+                            .frame(height: geometry.size.width < geometry.size.height ? (UIScreen.main.bounds.height < 750 ? geometry.size.width * 0.5 : geometry.size.width * 0.75) : geometry.size.height * 0.3)
                             .frostedGlass()
                             
                             

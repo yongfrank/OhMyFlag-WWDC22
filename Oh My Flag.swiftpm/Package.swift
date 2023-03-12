@@ -10,7 +10,7 @@ import AppleProductTypes
 let package = Package(
     name: "Oh My Flag",
     platforms: [
-        .iOS("15.2")
+        .iOS("15.0")
     ],
     products: [
         .iOSApplication(
@@ -18,8 +18,8 @@ let package = Package(
             targets: ["AppModule"],
             bundleIdentifier: "com.yongfrank.oh-my-flag",
             teamIdentifier: "L3P8YP4XRH",
-            displayVersion: "1.0",
-            bundleVersion: "2",
+            displayVersion: "1.0.0",
+            bundleVersion: "5",
             appIcon: .asset("AppIcon"),
             accentColor: .asset("AccentColor"),
             supportedDeviceFamilies: [
@@ -35,7 +35,7 @@ let package = Package(
             capabilities: [
                 .photoLibrary(purposeString: "Your drawings will save in your albums.")
             ],
-            appCategory: .utilities
+            appCategory: .education
         )
     ],
     targets: [

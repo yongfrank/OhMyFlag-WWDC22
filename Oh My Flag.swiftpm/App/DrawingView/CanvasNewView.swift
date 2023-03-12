@@ -36,15 +36,6 @@ struct CanvasNewView: View {
             }
         }
         .toolbar {
-            ToolbarItem {
-                Button(action: {
-                    canvasIsVisible.toggle()
-                    canvasIsVisible.toggle()
-                    canvasIsVisible.toggle()
-                }, label: {
-                    Image(systemName: canvasIsVisible ? "pencil.circle.fill" : "pencil.circle")
-                })
-            }
             ToolbarItem(placement: .navigationBarLeading) {
                 Button() {
                     self.shuffleButton()
@@ -59,6 +50,15 @@ struct CanvasNewView: View {
 //                .buttonStyle(.bordered)
 //                .controlSize(.large)
 //                .padding(.horizontal)
+            }
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button(action: {
+                    canvasIsVisible.toggle()
+                    canvasIsVisible.toggle()
+                    canvasIsVisible.toggle()
+                }, label: {
+                    Image(systemName: canvasIsVisible ? "pencil.circle.fill" : "pencil.circle")
+                })
             }
             
             ToolbarItem {

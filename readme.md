@@ -2,14 +2,15 @@
  * @Author: Frank Chu
  * @Date: 2022-04-22 21:39:00
  * @LastEditors: Frank Chu
- * @LastEditTime: 2023-03-12 17:47:17
- * @FilePath: /undefined/Users/yongfrank/Developer/OhMyFlag-WWDC22/readme.md
+ * @LastEditTime: 2023-03-12 22:00:23
+ * @FilePath: /OhMyFlag-WWDC22/readme.md
  * @Description: 
  * 
  * Copyright (c) 2023 by ${git_name}, All Rights Reserved. 
 -->
 # Oh My Flag
 
+[![GitHub Stars](https://img.shields.io/github/stars/yongfrank/OhMyFlag-WWDC22.svg?style=social)](https://github.com/yongfrank/OhMyFlag-WWDC22)
 [![Version Acquired](https://img.shields.io/badge/Swift_Playgrounds-4.0_or_Above_on_iPad-green)](https://apps.apple.com/us/app/swift-playgrounds/id908519492)
 [![Follow on twitter](https://img.shields.io/twitter/follow/cyongfrank)](https://twitter.com/intent/follow?screen_name=cyongfrank)
 [![Have any Question](https://img.shields.io/badge/email-yongfrank@outlook.com-blue.svg

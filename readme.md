@@ -16,6 +16,8 @@
 [![Have any Question](https://img.shields.io/badge/email-yongfrank@outlook.com-blue.svg
 )](mailto:yongfrank@outlook.com)
 
+[Privacy Policy](/privacy-policy.md)
+
 ![banner](resources/banner.jpeg)
 
 The App Oh My Flag helps students get familiar with flags. It is both educating and entertaining with the design of multi-module and interactive tasks.

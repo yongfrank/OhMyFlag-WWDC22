@@ -2,7 +2,7 @@
  * @Author: Frank Chu
  * @Date: 2022-04-22 21:39:00
  * @LastEditors: Frank Chu
- * @LastEditTime: 2023-03-14 09:25:28
+ * @LastEditTime: 2023-03-14 09:30:02
  * @FilePath: /OhMyFlag-WWDC22/readme.md
  * @Description: 
  * 
@@ -11,7 +11,6 @@
 <!-- markdownlint-disable MD033 -->
 <head>
 <!-- Primary Meta Tags -->
-<title>Oh My Flag - Learn flags on emoji keyboard</title>
 <meta name="title" content="Oh My Flag - Learn flags on emoji keyboard">
 <meta name="description" content="The App Oh My Flag helps students get familiar with flags. It is both educating and entertaining with the design of multi-module and interactive tasks.">
 

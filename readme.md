@@ -2,7 +2,7 @@
  * @Author: Frank Chu
  * @Date: 2022-04-22 21:39:00
  * @LastEditors: Frank Chu
- * @LastEditTime: 2023-03-12 22:00:23
+ * @LastEditTime: 2023-03-14 08:17:26
  * @FilePath: /OhMyFlag-WWDC22/readme.md
  * @Description: 
  * 
@@ -18,7 +18,9 @@
 
 [Privacy Policy](/privacy-policy.md)
 
-![banner](resources/banner.jpeg)
+[![banner](/resources/banner.jpeg)](https://apps.apple.com/app/oh-my-flag/id6446227923)
+
+[![banner](/resources/download-on-the-app-store.svg)](https://apps.apple.com/app/oh-my-flag/id6446227923)
 
 The App Oh My Flag helps students get familiar with flags. It is both educating and entertaining with the design of multi-module and interactive tasks.
 
@@ -77,4 +79,3 @@ My inspiration for the Oh My Flag App also comes from Apple Teacher Program. Bef
 * [@leonardolu](https://github.com/leonardolu)
 * People on the [StackOverflow](https://stackoverflow.com) Community
 * And anyone who helped me
-

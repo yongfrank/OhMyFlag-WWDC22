@@ -2,7 +2,7 @@
  * @Author: Frank Chu
  * @Date: 2022-04-22 21:39:00
  * @LastEditors: Frank Chu
- * @LastEditTime: 2023-03-14 08:17:26
+ * @LastEditTime: 2023-03-14 08:26:43
  * @FilePath: /OhMyFlag-WWDC22/readme.md
  * @Description: 
  * 
@@ -15,6 +15,8 @@
 [![Follow on twitter](https://img.shields.io/twitter/follow/cyongfrank)](https://twitter.com/intent/follow?screen_name=cyongfrank)
 [![Have any Question](https://img.shields.io/badge/email-yongfrank@outlook.com-blue.svg
 )](mailto:yongfrank@outlook.com)
+[![About Frank](https://img.shields.io/badge/Find_More_Project-yongfrank.github.io/about-9ef)](https://yongfrank.github.io/about)
+[![Blog Page](https://img.shields.io/badge/Blog_Page-yongfrank.github.io-success)](https://yongfrank.github.io/)
 
 [Privacy Policy](/privacy-policy.md)
 

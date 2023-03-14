@@ -2,12 +2,36 @@
  * @Author: Frank Chu
  * @Date: 2022-04-22 21:39:00
  * @LastEditors: Frank Chu
- * @LastEditTime: 2023-03-14 08:26:43
+ * @LastEditTime: 2023-03-14 09:19:48
  * @FilePath: /OhMyFlag-WWDC22/readme.md
  * @Description: 
  * 
  * Copyright (c) 2023 by ${git_name}, All Rights Reserved. 
 -->
+<!-- markdownlint-disable MD033 -->
+<html>
+<head>
+<!-- Primary Meta Tags -->
+<title>Oh My Flag - Learn flags on emoji keyboard</title>
+<meta name="title" content="Oh My Flag - Learn flags on emoji keyboard">
+<meta name="description" content="The App Oh My Flag helps students get familiar with flags. It is both educating and entertaining with the design of multi-module and interactive tasks.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yongfrank.github.io/OhMyFlag-WWDC22/">
+<meta property="og:title" content="Oh My Flag - Learn flags on emoji keyboard">
+<meta property="og:description" content="The App Oh My Flag helps students get familiar with flags. It is both educating and entertaining with the design of multi-module and interactive tasks.">
+<meta property="og:image" content="/resources/banner.jpeg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://yongfrank.github.io/OhMyFlag-WWDC22/">
+<meta property="twitter:title" content="Oh My Flag - Learn flags on emoji keyboard">
+<meta property="twitter:description" content="The App Oh My Flag helps students get familiar with flags. It is both educating and entertaining with the design of multi-module and interactive tasks.">
+<meta property="twitter:image" content="/resources/banner.jpeg">
+</head>
+</html>
+
 # Oh My Flag
 
 [![GitHub Stars](https://img.shields.io/github/stars/yongfrank/OhMyFlag-WWDC22.svg?style=social)](https://github.com/yongfrank/OhMyFlag-WWDC22)

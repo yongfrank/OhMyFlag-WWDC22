@@ -27,6 +27,10 @@
 <meta property="twitter:title" content="Oh My Flag - Learn flags on emoji keyboard">
 <meta property="twitter:description" content="The App Oh My Flag helps students get familiar with flags. It is both educating and entertaining with the design of multi-module and interactive tasks.">
 <meta property="twitter:image" content="https://raw.githubusercontent.com/yongfrank/OhMyFlag-WWDC22/main/resources/Metatag.jpeg">
+
+<!-- App Store -->
+<meta name='apple-itunes-app' content='app-id=6446227923'>
+
 </head>
 
 # Oh My Flag

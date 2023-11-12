@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE6F55722B0122ED00171948 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F554C2B0122ED00171948 /* Persistence.swift */; };
+		FE6F55732B0122ED00171948 /* EmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F554D2B0122ED00171948 /* EmojiTextField.swift */; };
+		FE6F55742B0122ED00171948 /* Flag CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F554E2B0122ED00171948 /* Flag CoreData.swift */; };
+		FE6F55752B0122ED00171948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6F554F2B0122ED00171948 /* Assets.xcassets */; };
+		FE6F55762B0122ED00171948 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6F55512B0122ED00171948 /* Preview Assets.xcassets */; };
+		FE6F55772B0122ED00171948 /* RandomNewFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F55532B0122ED00171948 /* RandomNewFlag.swift */; };
+		FE6F55782B0122ED00171948 /* ColorThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F55542B0122ED00171948 /* ColorThemeView.swift */; };
+		FE6F55792B0122ED00171948 /* BadgeFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F55552B0122ED00171948 /* BadgeFlagView.swift */; };
+		FE6F557A2B0122ED00171948 /* QuizFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F55572B0122ED00171948 /* QuizFlag.swift */; };
+		FE6F557B2B0122ED00171948 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F55592B0122ED00171948 /* WhatsNewView.swift */; };
+		FE6F557C2B0122ED00171948 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F555A2B0122ED00171948 /* SwiftUIView.swift */; };
+		FE6F557D2B0122ED00171948 /* NewVerWhatsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F555B2B0122ED00171948 /* NewVerWhatsNew.swift */; };
+		FE6F557E2B0122ED00171948 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F555C2B0122ED00171948 /* IntroView.swift */; };
+		FE6F557F2B0122ED00171948 /* PencilKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F555E2B0122ED00171948 /* PencilKitView.swift */; };
+		FE6F55802B0122ED00171948 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F555F2B0122ED00171948 /* ImageSaver.swift */; };
+		FE6F55812B0122ED00171948 /* DrawingFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F55602B0122ED00171948 /* DrawingFlag.swift */; };
+		FE6F55822B0122ED00171948 /* CanvasNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F55612B0122ED00171948 /* CanvasNewView.swift */; };
+		FE6F55832B0122ED00171948 /* FlagGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F55632B0122ED00171948 /* FlagGallery.swift */; };
+		FE6F55842B0122ED00171948 /* AddFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F55652B0122ED00171948 /* AddFlagView.swift */; };
+		FE6F55852B0122ED00171948 /* FlagDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F55662B0122ED00171948 /* FlagDetailView.swift */; };
+		FE6F55862B0122ED00171948 /* EditFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F55672B0122ED00171948 /* EditFlagView.swift */; };
+		FE6F55872B0122ED00171948 /* OhMyFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F55682B0122ED00171948 /* OhMyFlag.swift */; };
+		FE6F55882B0122ED00171948 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F55692B0122ED00171948 /* ContentView.swift */; };
+		FE6F55892B0122ED00171948 /* Walkthrough.tutorial in Resources */ = {isa = PBXBuildFile; fileRef = FE6F556B2B0122ED00171948 /* Walkthrough.tutorial */; };
+		FE6F558A2B0122ED00171948 /* Glossary.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE6F556D2B0122ED00171948 /* Glossary.plist */; };
+		FE6F558B2B0122ED00171948 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE6F556F2B0122ED00171948 /* Localizable.strings */; };
+		FE6F558C2B0122ED00171948 /* intro.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FE6F55712B0122ED00171948 /* intro.PNG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE6F55392B0122CA00171948 /* Oh My Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oh My Flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6F554C2B0122ED00171948 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FE6F554D2B0122ED00171948 /* EmojiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiTextField.swift; sourceTree = "<group>"; };
+		FE6F554E2B0122ED00171948 /* Flag CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Flag CoreData.swift"; sourceTree = "<group>"; };
+		FE6F554F2B0122ED00171948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE6F55512B0122ED00171948 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE6F55532B0122ED00171948 /* RandomNewFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNewFlag.swift; sourceTree = "<group>"; };
+		FE6F55542B0122ED00171948 /* ColorThemeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorThemeView.swift; sourceTree = "<group>"; };
+		FE6F55552B0122ED00171948 /* BadgeFlagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeFlagView.swift; sourceTree = "<group>"; };
+		FE6F55572B0122ED00171948 /* QuizFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizFlag.swift; sourceTree = "<group>"; };
+		FE6F55592B0122ED00171948 /* WhatsNewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
+		FE6F555A2B0122ED00171948 /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		FE6F555B2B0122ED00171948 /* NewVerWhatsNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewVerWhatsNew.swift; sourceTree = "<group>"; };
+		FE6F555C2B0122ED00171948 /* IntroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		FE6F555E2B0122ED00171948 /* PencilKitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilKitView.swift; sourceTree = "<group>"; };
+		FE6F555F2B0122ED00171948 /* ImageSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		FE6F55602B0122ED00171948 /* DrawingFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingFlag.swift; sourceTree = "<group>"; };
+		FE6F55612B0122ED00171948 /* CanvasNewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasNewView.swift; sourceTree = "<group>"; };
+		FE6F55632B0122ED00171948 /* FlagGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagGallery.swift; sourceTree = "<group>"; };
+		FE6F55652B0122ED00171948 /* AddFlagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFlagView.swift; sourceTree = "<group>"; };
+		FE6F55662B0122ED00171948 /* FlagDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagDetailView.swift; sourceTree = "<group>"; };
+		FE6F55672B0122ED00171948 /* EditFlagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditFlagView.swift; sourceTree = "<group>"; };
+		FE6F55682B0122ED00171948 /* OhMyFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OhMyFlag.swift; sourceTree = "<group>"; };
+		FE6F55692B0122ED00171948 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE6F556B2B0122ED00171948 /* Walkthrough.tutorial */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Walkthrough.tutorial; sourceTree = "<group>"; };
+		FE6F556E2B0122ED00171948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Glossary.plist; sourceTree = "<group>"; };
+		FE6F55702B0122ED00171948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FE6F55712B0122ED00171948 /* intro.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro.PNG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE6F55362B0122CA00171948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE6F55302B0122CA00171948 = {
+			isa = PBXGroup;
+			children = (
+				FE6F553B2B0122CA00171948 /* Oh My Flag */,
+				FE6F553A2B0122CA00171948 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE6F553A2B0122CA00171948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F55392B0122CA00171948 /* Oh My Flag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE6F553B2B0122CA00171948 /* Oh My Flag */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F554A2B0122ED00171948 /* App */,
+				FE6F556A2B0122ED00171948 /* Guide */,
+			);
+			path = "Oh My Flag";
+			sourceTree = "<group>";
+		};
+		FE6F554A2B0122ED00171948 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F554B2B0122ED00171948 /* Core Data */,
+				FE6F554F2B0122ED00171948 /* Assets.xcassets */,
+				FE6F55502B0122ED00171948 /* Preview Content */,
+				FE6F55522B0122ED00171948 /* Custom View */,
+				FE6F55562B0122ED00171948 /* QuizFlagView */,
+				FE6F55582B0122ED00171948 /* WhatsNewView */,
+				FE6F555D2B0122ED00171948 /* DrawingView */,
+				FE6F55622B0122ED00171948 /* View */,
+				FE6F55642B0122ED00171948 /* Subview */,
+				FE6F55682B0122ED00171948 /* OhMyFlag.swift */,
+				FE6F55692B0122ED00171948 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FE6F554B2B0122ED00171948 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F554C2B0122ED00171948 /* Persistence.swift */,
+				FE6F554D2B0122ED00171948 /* EmojiTextField.swift */,
+				FE6F554E2B0122ED00171948 /* Flag CoreData.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		FE6F55502B0122ED00171948 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F55512B0122ED00171948 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE6F55522B0122ED00171948 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F55532B0122ED00171948 /* RandomNewFlag.swift */,
+				FE6F55542B0122ED00171948 /* ColorThemeView.swift */,
+				FE6F55552B0122ED00171948 /* BadgeFlagView.swift */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+		FE6F55562B0122ED00171948 /* QuizFlagView */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F55572B0122ED00171948 /* QuizFlag.swift */,
+			);
+			path = QuizFlagView;
+			sourceTree = "<group>";
+		};
+		FE6F55582B0122ED00171948 /* WhatsNewView */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F55592B0122ED00171948 /* WhatsNewView.swift */,
+				FE6F555A2B0122ED00171948 /* SwiftUIView.swift */,
+				FE6F555B2B0122ED00171948 /* NewVerWhatsNew.swift */,
+				FE6F555C2B0122ED00171948 /* IntroView.swift */,
+			);
+			path = WhatsNewView;
+			sourceTree = "<group>";
+		};
+		FE6F555D2B0122ED00171948 /* DrawingView */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F555E2B0122ED00171948 /* PencilKitView.swift */,
+				FE6F555F2B0122ED00171948 /* ImageSaver.swift */,
+				FE6F55602B0122ED00171948 /* DrawingFlag.swift */,
+				FE6F55612B0122ED00171948 /* CanvasNewView.swift */,
+			);
+			path = DrawingView;
+			sourceTree = "<group>";
+		};
+		FE6F55622B0122ED00171948 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F55632B0122ED00171948 /* FlagGallery.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE6F55642B0122ED00171948 /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F55652B0122ED00171948 /* AddFlagView.swift */,
+				FE6F55662B0122ED00171948 /* FlagDetailView.swift */,
+				FE6F55672B0122ED00171948 /* EditFlagView.swift */,
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
+		FE6F556A2B0122ED00171948 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F556B2B0122ED00171948 /* Walkthrough.tutorial */,
+				FE6F556C2B0122ED00171948 /* Resources */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		FE6F556C2B0122ED00171948 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F556D2B0122ED00171948 /* Glossary.plist */,
+				FE6F556F2B0122ED00171948 /* Localizable.strings */,
+				FE6F55712B0122ED00171948 /* intro.PNG */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE6F55382B0122CA00171948 /* Oh My Flag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6F55472B0122CC00171948 /* Build configuration list for PBXNativeTarget "Oh My Flag" */;
+			buildPhases = (
+				FE6F55352B0122CA00171948 /* Sources */,
+				FE6F55362B0122CA00171948 /* Frameworks */,
+				FE6F55372B0122CA00171948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Oh My Flag";
+			productName = "Oh My Flag";
+			productReference = FE6F55392B0122CA00171948 /* Oh My Flag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE6F55312B0122CA00171948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					FE6F55382B0122CA00171948 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = FE6F55342B0122CA00171948 /* Build configuration list for PBXProject "Oh My Flag" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE6F55302B0122CA00171948;
+			productRefGroup = FE6F553A2B0122CA00171948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE6F55382B0122CA00171948 /* Oh My Flag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE6F55372B0122CA00171948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6F558B2B0122ED00171948 /* Localizable.strings in Resources */,
+				FE6F558A2B0122ED00171948 /* Glossary.plist in Resources */,
+				FE6F558C2B0122ED00171948 /* intro.PNG in Resources */,
+				FE6F55892B0122ED00171948 /* Walkthrough.tutorial in Resources */,
+				FE6F55762B0122ED00171948 /* Preview Assets.xcassets in Resources */,
+				FE6F55752B0122ED00171948 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE6F55352B0122CA00171948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6F55742B0122ED00171948 /* Flag CoreData.swift in Sources */,
+				FE6F557B2B0122ED00171948 /* WhatsNewView.swift in Sources */,
+				FE6F55882B0122ED00171948 /* ContentView.swift in Sources */,
+				FE6F557C2B0122ED00171948 /* SwiftUIView.swift in Sources */,
+				FE6F557A2B0122ED00171948 /* QuizFlag.swift in Sources */,
+				FE6F557F2B0122ED00171948 /* PencilKitView.swift in Sources */,
+				FE6F55862B0122ED00171948 /* EditFlagView.swift in Sources */,
+				FE6F55852B0122ED00171948 /* FlagDetailView.swift in Sources */,
+				FE6F55782B0122ED00171948 /* ColorThemeView.swift in Sources */,
+				FE6F55832B0122ED00171948 /* FlagGallery.swift in Sources */,
+				FE6F55842B0122ED00171948 /* AddFlagView.swift in Sources */,
+				FE6F55792B0122ED00171948 /* BadgeFlagView.swift in Sources */,
+				FE6F55732B0122ED00171948 /* EmojiTextField.swift in Sources */,
+				FE6F55872B0122ED00171948 /* OhMyFlag.swift in Sources */,
+				FE6F55812B0122ED00171948 /* DrawingFlag.swift in Sources */,
+				FE6F557D2B0122ED00171948 /* NewVerWhatsNew.swift in Sources */,
+				FE6F55722B0122ED00171948 /* Persistence.swift in Sources */,
+				FE6F55802B0122ED00171948 /* ImageSaver.swift in Sources */,
+				FE6F55822B0122ED00171948 /* CanvasNewView.swift in Sources */,
+				FE6F557E2B0122ED00171948 /* IntroView.swift in Sources */,
+				FE6F55772B0122ED00171948 /* RandomNewFlag.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE6F556D2B0122ED00171948 /* Glossary.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE6F556E2B0122ED00171948 /* en */,
+			);
+			name = Glossary.plist;
+			sourceTree = "<group>";
+		};
+		FE6F556F2B0122ED00171948 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE6F55702B0122ED00171948 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE6F55452B0122CC00171948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE6F55462B0122CC00171948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE6F55482B0122CC00171948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Oh My Flag/App/Preview Content\"";
+				DEVELOPMENT_TEAM = L3P8YP4XRH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongfrank.Oh-My-Flag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE6F55492B0122CC00171948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Oh My Flag/App/Preview Content\"";
+				DEVELOPMENT_TEAM = L3P8YP4XRH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongfrank.Oh-My-Flag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE6F55342B0122CA00171948 /* Build configuration list for PBXProject "Oh My Flag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6F55452B0122CC00171948 /* Debug */,
+				FE6F55462B0122CC00171948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6F55472B0122CC00171948 /* Build configuration list for PBXNativeTarget "Oh My Flag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6F55482B0122CC00171948 /* Debug */,
+				FE6F55492B0122CC00171948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE6F55312B0122CA00171948 /* Project object */;
+}

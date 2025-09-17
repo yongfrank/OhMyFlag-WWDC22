@@ -102,6 +102,8 @@ My inspiration for the Oh My Flag App also comes from Apple Teacher Program. Bef
 
 ## Details
 
+https://apps.apple.com/app/oh-my-flag/id6446227923
+
 This is a project about Swift Student Challenge - WWDC22
 
 The App Oh My Flag helps students get familiar with flags. It is both educating and entertaining with the design of multi-module and interactive tasks.
